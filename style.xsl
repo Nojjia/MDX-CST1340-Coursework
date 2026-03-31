@@ -10,33 +10,103 @@
     			</style>
 			</head>
 			<body>
-				<h2>Medicine Collection</h2>
-				<xsl:for-each select="products/*">
-					<table>
+				<h1>Medicine Collection</h1>
+
+				<h2>Medicines</h2>
+				<table>
+					<tr>
+						<th>Thumbnail</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Ingredients</th>
+						<th>Method Of Administration</th>
+						<th>Dosage</th>
+						<th>Price</th>
+						<th>In-Stock</th>
+						<th>Manufacturer</th>
+						<th>Type</th>
+					</tr>
+					<xsl:for-each select="products/medicines/medicine">
 						<tr>
-							<xsl:for-each select="*[1]/*">
-								<th><xsl:value-of select="name()"/></th>
-							</xsl:for-each>
+                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td><xsl:value-of select="name"/></td>
+                			<td><xsl:value-of select="description"/></td>
+							<td>
+							    <xsl:for-each select="ingredients/ingredient">
+							        <xsl:value-of select="."/>
+							        <xsl:if test="position() != last()">
+							            <xsl:text>, </xsl:text>
+							        </xsl:if>
+							    </xsl:for-each>
+							</td>
+                			<td><xsl:value-of select="name(method_of_administration/*)"/></td>
+                			<td><xsl:value-of select="dosage"/></td>
+                			<td><xsl:value-of select="price"/></td>
+                			<td><xsl:value-of select="name(in_stock/*)"/></td>
+                			<td><xsl:value-of select="manufacturer"/></td>
+                			<td><xsl:value-of select="name(type/*)"/></td>
 						</tr>
-						<xsl:for-each select="./*">
-							<tr>
-								<xsl:for-each select="*">
-									<td>
-										<xsl:choose>
-											<xsl:when test="*">
-												<xsl:value-of select="name(*)"/>
-											</xsl:when>
-											<xsl:otherwise>
-												<xsl:value-of select="."/>
-											</xsl:otherwise>
-										</xsl:choose>
-									</td>
-								</xsl:for-each>
-							</tr>
-						</xsl:for-each>
-					</table>
-					<br/>
-				</xsl:for-each>
+					</xsl:for-each>
+				</table>
+
+				<h2>Medical device</h2>
+				<table>
+					<tr>
+						<th>Thumbnail</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Price</th>
+						<th>In-Stock</th>
+						<th>Manufacturer</th>
+					</tr>
+					<xsl:for-each select="products/medical_devices/medical_device">
+						<tr>
+                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td><xsl:value-of select="name"/></td>
+                			<td><xsl:value-of select="description"/></td>
+                			<td><xsl:value-of select="price"/></td>
+                			<td><xsl:value-of select="in_stock"/></td>
+                			<td><xsl:value-of select="manufacturer"/></td>
+						</tr>
+					</xsl:for-each>
+				</table>
+
+				<h2>Other</h2>
+				<table>
+					<tr>
+						<th>Thumbnail</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Ingredients</th>
+						<th>Method Of Administration</th>
+						<th>Dosage</th>
+						<th>Price</th>
+						<th>In-Stock</th>
+						<th>Manufacturer</th>
+						<th>Type</th>
+					</tr>
+					<xsl:for-each select="products/others/other">
+						<tr>
+                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td><xsl:value-of select="name"/></td>
+                			<td><xsl:value-of select="description"/></td>
+							<td>
+							    <xsl:for-each select="ingredients/ingredient">
+							        <xsl:value-of select="."/>
+							        <xsl:if test="position() != last()">
+							            <xsl:text>, </xsl:text>
+							        </xsl:if>
+							    </xsl:for-each>
+							</td>
+                			<td><xsl:value-of select="name(method_of_administration/*)"/></td>
+                			<td><xsl:value-of select="dosage"/></td>
+                			<td><xsl:value-of select="price"/></td>
+                			<td><xsl:value-of select="name(in_stock/*)"/></td>
+                			<td><xsl:value-of select="manufacturer"/></td>
+                			<td><xsl:value-of select="name(type/*)"/></td>
+						</tr>
+					</xsl:for-each>
+				</table>
 			</body>
 		</html>
 	</xsl:template>
