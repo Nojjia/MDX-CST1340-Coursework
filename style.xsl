@@ -30,7 +30,9 @@
 						<tr>
                 			<td>
 								<img>
-									<xsl:value-of select="thumbnail"/>
+									<xsl:attribute name="src">
+										<xsl:value-of select="thumbnail"/>
+										</xsl:attribute>
 								</img>
 							</td>
                 			<td><xsl:value-of select="name"/></td>
@@ -67,7 +69,9 @@
 						<tr>
                 			<td>
 								<img>
-									<xsl:value-of select="thumbnail"/>
+									<xsl:attribute name="src">
+										<xsl:value-of select="thumbnail"/>
+										</xsl:attribute>
 								</img>
 							</td>
                 			<td><xsl:value-of select="name"/></td>
@@ -97,7 +101,9 @@
 						<tr>
                 			<td>
 								<img>
-									<xsl:value-of select="thumbnail"/>
+									<xsl:attribute name="src">
+										<xsl:value-of select="thumbnail"/>
+										</xsl:attribute>
 								</img>
 							</td>
                 			<td><xsl:value-of select="name"/></td>
