@@ -28,7 +28,11 @@
 					</tr>
 					<xsl:for-each select="products/medicines/medicine">
 						<tr>
-                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td>
+								<img>
+									<xsl:value-of select="thumbnail"/>
+								</img>
+							</td>
                 			<td><xsl:value-of select="name"/></td>
                 			<td><xsl:value-of select="description"/></td>
 							<td>
@@ -61,11 +65,15 @@
 					</tr>
 					<xsl:for-each select="products/medical_devices/medical_device">
 						<tr>
-                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td>
+								<img>
+									<xsl:value-of select="thumbnail"/>
+								</img>
+							</td>
                 			<td><xsl:value-of select="name"/></td>
                 			<td><xsl:value-of select="description"/></td>
                 			<td><xsl:value-of select="price"/></td>
-                			<td><xsl:value-of select="in_stock"/></td>
+                			<td><xsl:value-of select="name(in_stock/*)"/></td>
                 			<td><xsl:value-of select="manufacturer"/></td>
 						</tr>
 					</xsl:for-each>
@@ -87,7 +95,11 @@
 					</tr>
 					<xsl:for-each select="products/others/other">
 						<tr>
-                			<td><xsl:value-of select="thumbnail"/></td>
+                			<td>
+								<img>
+									<xsl:value-of select="thumbnail"/>
+								</img>
+							</td>
                 			<td><xsl:value-of select="name"/></td>
                 			<td><xsl:value-of select="description"/></td>
 							<td>
