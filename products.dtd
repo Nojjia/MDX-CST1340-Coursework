@@ -1,0 +1,63 @@
+<!--TO-DO:
+     - Assign more appropirate element names
+-->
+
+<!--ROOT-->
+<!ELEMENT products (medicines, medical_devices, others)>
+
+<!--MAIN-CONTAINERS-->
+<!ELEMENT medicines (medicine*)>
+<!ELEMENT medical_devices (medical_device*)>
+<!ELEMENT others (other*)>
+
+<!--SUB-CONTAINERs-->
+<!ELEMENT medicine (thumbnail?, name, description?, ingredients?, method_of_administration?, dosage, price, in_stock, manufacturer?, type)>
+<!ELEMENT medical_device (thumbnail?, name, description, price, in_stock, manufacturer)>
+<!ELEMENT other (thumbnail?, name, description?, ingredients, method_of_administration, dosage, price, in_stock, manufacturer, type)>
+
+<!--ELEMENT-->
+<!ELEMENT thumbnail (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT name (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT description (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT method_of_administration (Oral | Topical | Transdermal | Intravenous | Intramuscular | Subcutaneous | Inhalation | Rectal | Unknown)>
+<!--ELEMENT-DATA-->
+<!ELEMENT Oral EMPTY>
+<!ELEMENT Topical EMPTY>
+<!ELEMENT Transdermal EMPTY>
+<!ELEMENT Intravenous EMPTY>
+<!ELEMENT Intramuscular EMPTY>
+<!ELEMENT Subcutaneous EMPTY>
+<!ELEMENT Inhalation EMPTY>
+<!ELEMENT Rectal EMPTY>
+<!ELEMENT Unknown EMPTY>
+
+<!--ELEMENT-->
+<!ELEMENT dosage (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT price (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT in_stock (yes | no)>
+<!ELEMENT yes EMPTY>
+<!ELEMENT no EMPTY>
+
+<!--ELEMENT-->
+<!ELEMENT manufacturer (#PCDATA)>
+
+<!--ELEMENT-->
+<!ELEMENT type (drugs | dietary_supplements | cosmetics_care)>
+<!--ELEMENT-DATA-->
+<!ELEMENT drugs EMPTY>
+<!ELEMENT dietary_supplements EMPTY>
+<!ELEMENT cosmetics_care EMPTY>
