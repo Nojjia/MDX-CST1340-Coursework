@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<!DOCTYPE products SYSTEM "books.dtd">
+
+<products>
+
+    <books>
+
+        <!-- ==================== FANTASY ==================== -->
+        <book>
+            <thumbnail>harry_potter_1.png</thumbnail>
+            <name>Harry Potter and the Philosopher's Stone</name>
+            <description>A young boy discovers he is a wizard and begins his journey at Hogwarts School of Witchcraft and Wizardry.</description>
+            <authors>
+                <author>J.K. Rowling</author>
+            </authors>
+            <category>Fantasy</category>
+            <isbn>978-0-7475-3269-9</isbn>
+            <publisher>Bloomsbury Publishing</publisher>
+            <year>1997</year>
+            <pages>223</pages>
+            <price>12.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>lotr_fellowship.png</thumbnail>
+            <name>The Lord of the Rings: The Fellowship of the Ring</name>
+            <description>A hobbit named Frodo Baggins embarks on a dangerous quest to destroy the One Ring and save Middle-earth from the Dark Lord Sauron.</description>
+            <authors>
+                <author>J.R.R. Tolkien</author>
+            </authors>
+            <category>Fantasy</category>
+            <isbn>978-0-261-10235-4</isbn>
+            <publisher>George Allen and Unwin</publisher>
+            <year>1954</year>
+            <pages>423</pages>
+            <price>14.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>name_of_the_wind.png</thumbnail>
+            <name>The Name of the Wind</name>
+            <description>The tale of Kvothe, a legendary wizard and musician, as he recounts his extraordinary life story.</description>
+            <authors>
+                <author>Patrick Rothfuss</author>
+            </authors>
+            <category>Fantasy</category>
+            <isbn>978-0-7564-0407-9</isbn>
+            <publisher>DAW Books</publisher>
+            <year>2007</year>
+            <pages>662</pages>
+            <price>13.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>mistborn.png</thumbnail>
+            <name>Mistborn: The Final Empire</name>
+            <description>In a world of ash and darkness, a young street thief joins a crew of rebels to overthrow an immortal ruler.</description>
+            <authors>
+                <author>Brandon Sanderson</author>
+            </authors>
+            <category>Fantasy</category>
+            <isbn>978-0-7653-5038-1</isbn>
+            <publisher>Tor Books</publisher>
+            <year>2006</year>
+            <pages>541</pages>
+            <price>13.49</price>
+            <in_stock><no/></in_stock>
+        </book>
+
+        <!-- ==================== SCIENCE FICTION ==================== -->
+        <book>
+            <thumbnail>1984.png</thumbnail>
+            <name>1984</name>
+            <description>A dystopian novel set in a totalitarian society where Big Brother watches your every move.</description>
+            <authors>
+                <author>George Orwell</author>
+            </authors>
+            <category>Science Fiction</category>
+            <isbn>978-0-452-28423-4</isbn>
+            <publisher>Secker and Warburg</publisher>
+            <year>1949</year>
+            <pages>328</pages>
+            <price>9.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>dune.png</thumbnail>
+            <name>Dune</name>
+            <description>Set in a distant future, a noble family takes control of a desert planet, the only source of the most valuable substance in the universe.</description>
+            <authors>
+                <author>Frank Herbert</author>
+            </authors>
+            <category>Science Fiction</category>
+            <isbn>978-0-441-17271-9</isbn>
+            <publisher>Chilton Books</publisher>
+            <year>1965</year>
+            <pages>412</pages>
+            <price>11.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>hitchhiker.png</thumbnail>
+            <name>The Hitchhiker's Guide to the Galaxy</name>
+            <description>Moments before Earth is demolished to make way for a hyperspace bypass, Arthur Dent is whisked off into space by his friend Ford Prefect.</description>
+            <authors>
+                <author>Douglas Adams</author>
+            </authors>
+            <category>Science Fiction</category>
+            <isbn>978-0-330-25864-7</isbn>
+            <publisher>Pan Books</publisher>
+            <year>1979</year>
+            <pages>224</pages>
+            <price>8.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>enders_game.png</thumbnail>
+            <name>Ender's Game</name>
+            <description>A gifted child is trained through increasingly difficult war games to lead Earth's fleet against an alien invasion.</description>
+            <authors>
+                <author>Orson Scott Card</author>
+            </authors>
+            <category>Science Fiction</category>
+            <isbn>978-0-312-93208-3</isbn>
+            <publisher>Tor Books</publisher>
+            <year>1985</year>
+            <pages>324</pages>
+            <price>10.49</price>
+            <in_stock><no/></in_stock>
+        </book>
+
+        <!-- ==================== CLASSIC FICTION ==================== -->
+        <book>
+            <thumbnail>to_kill_a_mockingbird.png</thumbnail>
+            <name>To Kill a Mockingbird</name>
+            <description>A gripping tale of racial injustice and childhood innocence set in the American South during the 1930s.</description>
+            <authors>
+                <author>Harper Lee</author>
+            </authors>
+            <category>Classic Fiction</category>
+            <isbn>978-0-06-112008-4</isbn>
+            <publisher>J. B. Lippincott and Co.</publisher>
+            <year>1960</year>
+            <pages>281</pages>
+            <price>10.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>great_gatsby.png</thumbnail>
+            <name>The Great Gatsby</name>
+            <description>A story of the mysteriously wealthy Jay Gatsby and his obsession with the beautiful Daisy Buchanan set in the Roaring Twenties.</description>
+            <authors>
+                <author>F. Scott Fitzgerald</author>
+            </authors>
+            <category>Classic Fiction</category>
+            <isbn>978-0-7432-7356-5</isbn>
+            <publisher>Scribner</publisher>
+            <year>1925</year>
+            <pages>180</pages>
+            <price>8.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>pride_and_prejudice.png</thumbnail>
+            <name>Pride and Prejudice</name>
+            <description>The story follows Elizabeth Bennet as she deals with issues of manners, upbringing, morality, education, and marriage in early 19th-century England.</description>
+            <authors>
+                <author>Jane Austen</author>
+            </authors>
+            <category>Classic Fiction</category>
+            <isbn>978-0-14-143951-8</isbn>
+            <publisher>T. Egerton</publisher>
+            <year>1813</year>
+            <pages>432</pages>
+            <price>7.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>crime_and_punishment.png</thumbnail>
+            <name>Crime and Punishment</name>
+            <description>A young student commits a murder and struggles with the psychological consequences of his act in 19th-century St. Petersburg.</description>
+            <authors>
+                <author>Fyodor Dostoevsky</author>
+            </authors>
+            <category>Classic Fiction</category>
+            <isbn>978-0-14-044913-6</isbn>
+            <publisher>The Russian Messenger</publisher>
+            <year>1866</year>
+            <pages>551</pages>
+            <price>9.49</price>
+            <in_stock><no/></in_stock>
+        </book>
+
+        <!-- ==================== NON-FICTION ==================== -->
+        <book>
+            <thumbnail>sapiens.png</thumbnail>
+            <name>Sapiens: A Brief History of Humankind</name>
+            <description>A groundbreaking narrative of humanity's creation and evolution, exploring how biology and history have defined us.</description>
+            <authors>
+                <author>Yuval Noah Harari</author>
+            </authors>
+            <category>Non-Fiction</category>
+            <isbn>978-0-06-231609-7</isbn>
+            <publisher>Harper Perennial</publisher>
+            <year>2011</year>
+            <pages>443</pages>
+            <price>14.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>a_brief_history_of_time.png</thumbnail>
+            <name>A Brief History of Time</name>
+            <description>An exploration of the universe, from the Big Bang to black holes, written for the general reader by the legendary physicist Stephen Hawking.</description>
+            <authors>
+                <author>Stephen Hawking</author>
+            </authors>
+            <category>Non-Fiction</category>
+            <isbn>978-0-553-38016-3</isbn>
+            <publisher>Bantam Books</publisher>
+            <year>1988</year>
+            <pages>212</pages>
+            <price>11.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>educated.png</thumbnail>
+            <name>Educated</name>
+            <description>A memoir about a woman who grows up in a survivalist family in rural Idaho and goes on to earn a PhD from Cambridge University.</description>
+            <authors>
+                <author>Tara Westover</author>
+            </authors>
+            <category>Non-Fiction</category>
+            <isbn>978-0-399-59050-4</isbn>
+            <publisher>Random House</publisher>
+            <year>2018</year>
+            <pages>334</pages>
+            <price>13.49</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <!-- ==================== SELF-HELP ==================== -->
+        <book>
+            <thumbnail>atomic_habits.png</thumbnail>
+            <name>Atomic Habits</name>
+            <description>An easy and proven way to build good habits and break bad ones through tiny changes and remarkable results.</description>
+            <authors>
+                <author>James Clear</author>
+            </authors>
+            <category>Self-Help</category>
+            <isbn>978-0-7352-1129-8</isbn>
+            <publisher>Avery</publisher>
+            <year>2018</year>
+            <pages>320</pages>
+            <price>15.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>subtle_art.png</thumbnail>
+            <name>The Subtle Art of Not Giving a F*ck</name>
+            <description>A counterintuitive approach to living a good life by focusing only on what truly matters and letting go of everything else.</description>
+            <authors>
+                <author>Mark Manson</author>
+            </authors>
+            <category>Self-Help</category>
+            <isbn>978-0-06-245771-3</isbn>
+            <publisher>HarperOne</publisher>
+            <year>2016</year>
+            <pages>224</pages>
+            <price>12.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>think_and_grow_rich.png</thumbnail>
+            <name>Think and Grow Rich</name>
+            <description>A personal development classic that explores the psychological power of thought and how it translates into personal success and wealth.</description>
+            <authors>
+                <author>Napoleon Hill</author>
+            </authors>
+            <category>Self-Help</category>
+            <isbn>978-1-58542-433-6</isbn>
+            <publisher>The Ralston Society</publisher>
+            <year>1937</year>
+            <pages>238</pages>
+            <price>9.99</price>
+            <in_stock><no/></in_stock>
+        </book>
+
+        <!-- ==================== MYSTERY / THRILLER ==================== -->
+        <book>
+            <thumbnail>gone_girl.png</thumbnail>
+            <name>Gone Girl</name>
+            <description>On the morning of Nick and Amy Dunne's fifth wedding anniversary, Amy disappears and Nick becomes the prime suspect.</description>
+            <authors>
+                <author>Gillian Flynn</author>
+            </authors>
+            <category>Mystery</category>
+            <isbn>978-0-307-58836-4</isbn>
+            <publisher>Crown Publishing Group</publisher>
+            <year>2012</year>
+            <pages>422</pages>
+            <price>11.49</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>girl_with_dragon_tattoo.png</thumbnail>
+            <name>The Girl with the Dragon Tattoo</name>
+            <description>A journalist and a hacker investigate a decades-old disappearance of a young woman from a powerful Swedish family.</description>
+            <authors>
+                <author>Stieg Larsson</author>
+            </authors>
+            <category>Mystery</category>
+            <isbn>978-0-307-45454-1</isbn>
+            <publisher>Norstedts Forlag</publisher>
+            <year>2005</year>
+            <pages>672</pages>
+            <price>12.49</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>and_then_there_were_none.png</thumbnail>
+            <name>And Then There Were None</name>
+            <description>Ten strangers are lured to an isolated island where they are accused of past crimes and begin to die one by one.</description>
+            <authors>
+                <author>Agatha Christie</author>
+            </authors>
+            <category>Mystery</category>
+            <isbn>978-0-00-861331-0</isbn>
+            <publisher>Collins Crime Club</publisher>
+            <year>1939</year>
+            <pages>264</pages>
+            <price>8.49</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <!-- ==================== ROMANCE ==================== -->
+        <book>
+            <thumbnail>outlander.png</thumbnail>
+            <name>Outlander</name>
+            <description>A British combat nurse in 1945 is mysteriously swept back in time to 1743 Scotland, where she encounters a dashing young Scottish warrior.</description>
+            <authors>
+                <author>Diana Gabaldon</author>
+            </authors>
+            <category>Romance</category>
+            <isbn>978-0-385-30230-4</isbn>
+            <publisher>Delacorte Press</publisher>
+            <year>1991</year>
+            <pages>850</pages>
+            <price>13.99</price>
+            <in_stock><yes/></in_stock>
+        </book>
+
+        <book>
+            <thumbnail>me_before_you.png</thumbnail>
+            <name>Me Before You</name>
+            <description>A small-town girl takes a job caring for a paralyzed man, and together they discover life has more to offer than either imagined.</description>
+            <authors>
+                <author>Jojo Moyes</author>
+            </authors>
+            <category>Romance</category>
+            <isbn>978-0-14-312454-5</isbn>
+            <publisher>Pamela Dorman Books</publisher>
+            <year>2012</year>
+            <pages>369</pages>
+            <price>10.99</price>
+            <in_stock><no/></in_stock>
+        </book>
+
+    </books>
+
+</products>

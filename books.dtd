@@ -1,0 +1,23 @@
+<!ELEMENT products (books)>
+
+<!ELEMENT books (book+)>
+
+<!ELEMENT book (thumbnail, name, description, authors, category, isbn, publisher, year, pages, price, in_stock)>
+
+<!ELEMENT thumbnail (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT authors (author+)>
+<!ELEMENT author (#PCDATA)>
+
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT in_stock (yes | no)>
+<!ELEMENT yes EMPTY>
+<!ELEMENT no EMPTY>
