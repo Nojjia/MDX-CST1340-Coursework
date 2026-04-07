@@ -99,7 +99,7 @@
 	<h1><i class="nf nf-fa-book"></i> Our Book Collection</h1>
 	<a href="index.html">← Back to Home</a>
 
-	<!-- ========== FANTASY ========== -->
+	<!-- FANTASY -->
 	<div class="category-section">
 		<h2><i class="nf nf-fa-hat_wizard"></i> Fantasy</h2>
 		<table>
@@ -137,7 +137,7 @@
 		</table>
 	</div>
 
-	<!-- ========== SCIENCE FICTION ========== -->
+	<!-- SCIENCE FICTION -->
 	<div class="category-section">
 		<h2><i class="nf nf-fa-rocket"></i> Science Fiction</h2>
 		<table>
@@ -175,7 +175,7 @@
 		</table>
 	</div>
 
-	<!-- ========== CLASSIC FICTION ========== -->
+	<!-- CLASSIC FICTION -->
 	<div class="category-section">
 		<h2><i class="nf nf-fa-book_open"></i> Classic Fiction</h2>
 		<table>
@@ -213,7 +213,7 @@
 		</table>
 	</div>
 
-	<!-- ========== NON-FICTION ========== -->
+	<!-- NON-FICTION -->
 	<div class="category-section">
 		<h2><i class="nf nf-fa-globe"></i> Non-Fiction</h2>
 		<table>
@@ -251,7 +251,7 @@
 		</table>
 	</div>
 
-	<!-- ========== SELF-HELP ========== -->
+	<!-- SELF-HELP -->
 	<div class="category-section">
 		<h2><i class="nf nf-md-arm_flex"></i> Self-Help</h2>
 		<table>
@@ -289,7 +289,7 @@
 		</table>
 	</div>
 
-	<!-- ========== MYSTERY ========== -->
+	<!-- MYSTERY -->
 	<div class="category-section">
 		<h2><i class="nf nf-fa-magnifying_glass"></i> Mystery</h2>
 		<table>
@@ -327,7 +327,7 @@
 		</table>
 	</div>
 
-	<!-- ========== ROMANCE ========== -->
+	<!-- ROMANCE -->
 	<div class="category-section">
 		<h2><i class="nf nf-md-heart_multiple"></i> Romance</h2>
 		<table>
